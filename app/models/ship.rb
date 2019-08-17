@@ -4,8 +4,8 @@ class Ship
 
   def inizialize(name,type,booty)
     @name = args[:name]
-    @type = args[:type]
-    @booty = args[:booty]
+    @weight = args[:weight]
+    @height = args[:height]
     @@all << self
   end
 
